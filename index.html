@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Lab2</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="screen">
+        <div id="last"></div>
+        <div id="middle"></div>
+        <div id="first"></div>
+        <input type="text" id="current" size="40" placeholder="Введите ваше выражение">
+
+    </div>
+
+
+    <div id = "buttons">
+        <button onclick="seven()">7</button>
+        <button onclick="eight()">8</button>
+        <button onclick="nine()">9</button>
+        <button id="delenie" onclick="delenie()">/</button>
+        <button>←</button>
+        <button>C</button><br>
+
+        <button onclick="four()">4</button>
+        <button onclick="five()">5</button>
+        <button onclick="six()">6</button>
+        <button id="umnojenie" onclick="umnojenie()">x</button>
+        <button>(</button>
+        <button>)</button><br>
+
+        <button onclick="one()">1</button>
+        <button onclick="two()">2</button>
+        <button onclick="three()">3</button>
+        <button id="minus" onclick="minus()">-</button>
+        <button>x²</button>
+        <button onclick="sqrt()">√</button><br>
+
+        <button onclick="zero()">0</button>
+        <button>,</button>
+        <button>%</button>
+        <button id="summ" onclick="sum()">+</button>
+        <button class = "button_space" onclick="ravno()">=</button>
+        <button onclick="fact()">!N</button>
+    </div>
+
+
+    <script type = "text/javascript" src = "app.js"></script>
+    <script type = "text/javascript" src = "erzhan.js"></script>
+</body>
+</html>
